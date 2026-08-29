@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 230" role="img" aria-labelledby="title desc">
+  <title id="title">Caza Nica</title><desc id="desc">Logotipo Caza Nica con mira y silueta de Nicaragua</desc>
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency=".035 .22" numOctaves="2" seed="12" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="1.8"/></filter>
+    <mask id="distress"><rect width="100%" height="100%" fill="white"/><g fill="black" opacity=".42"><circle cx="59" cy="132" r="3"/><circle cx="81" cy="58" r="2"/><circle cx="105" cy="151" r="4"/><path d="m37 112 28-5 9 5-31 7zm126-63 22 2 5 5-29 3zm46 100 37-5 7 5-42 6zm68-92 38 3-8 6-34-2zm-6 90 48-4-11 8-38 2zm176-82 29-4 5 6-36 4z"/></g></mask>
+  </defs>
+  <g fill="#102f24" mask="url(#distress)" filter="url(#rough)">
+    <path d="M101 40c-42 0-72 30-72 76 0 47 29 77 72 77 27 0 49-12 62-33l-31-21c-8 12-17 18-30 18-21 0-34-16-34-41 0-24 13-40 34-40 13 0 23 6 30 19l31-21c-13-22-35-34-62-34z"/>
+    <path d="m213 43-61 147h42l10-29h56l10 29h43L251 43zm3 84 16-47 16 47z"/><path d="M280 43v36h73l-77 81v30h132v-36h-78l78-82V43z"/><path fill-rule="evenodd" d="m456 43-61 147h42l10-29h56l10 29h43L494 43zm3 84 16-47 16 47z"/>
+  </g>
+  <g transform="translate(475 121)"><circle r="34" fill="#f8f4e9" stroke="#102f24" stroke-width="4"/><g stroke="#102f24" stroke-width="4"><path d="M0-48v24M0 24v24M-48 0h24M24 0h24"/></g><circle r="4" fill="#a52c20"/><path d="M-8-21 3-15 5-8 14-4 10 5 15 13 5 16-1 12-7 16-11 7-17 2-13-5-17-12z" fill="#a52c20" transform="rotate(18)"/></g>
+  <path d="M29 203h318" stroke="#102f24" stroke-width="8"/><text x="355" y="218" fill="#102f24" font-family="Arial Black,Arial,sans-serif" font-size="55" font-weight="900" letter-spacing="3">NICA</text>
+</svg>
