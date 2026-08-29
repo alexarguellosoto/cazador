@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title">
+  <title id="title">Mapa decorativo de Nicaragua</title>
+  <rect width="600" height="420" fill="#f5efdf"/>
+  <g fill="none" stroke="#123d2d" stroke-width="2" opacity=".14">
+    <path d="M-20 80C100 20 205 135 325 70S520 35 640 95M-30 300c115-70 225 45 345-20s220-25 330 35"/>
+    <circle cx="95" cy="215" r="75"/><circle cx="505" cy="130" r="110"/>
+  </g>
+  <path d="m267 35 42 30 18 47 55 27-10 48 27 51-38 50 4 56-49 37-43-31-50 5-26-50-48-29 18-57-26-48 42-39 13-62 50-4z" fill="#123d2d" opacity=".16"/>
+  <circle cx="287" cy="205" r="13" fill="#a52c20" opacity=".6"/>
+</svg>

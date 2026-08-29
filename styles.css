@@ -40,7 +40,7 @@ button {
   overflow: hidden;
   background:
     linear-gradient(125deg, #f8f3e8f2, #eee3caf2),
-    url("img/mapa.png") center/cover;
+    url("img/mapa-nicaragua.svg") center/cover;
 }
 .landing:after,
 .green-texture:after {
@@ -222,7 +222,7 @@ button {
   color: #fff;
   background:
     linear-gradient(150deg, #164c39e8, #06281ff2),
-    url("img/mapa.png") center/cover;
+    url("img/mapa-nicaragua.svg") center/cover;
 }
 .auth-side h1 {
   font: 800 clamp(48px, 6vw, 80px)/0.95 Barlow Condensed;
@@ -416,6 +416,10 @@ button {
   grid-template-columns: 280px 1fr;
   min-height: calc(100vh - 82px);
 }
+/* Las vistas sin barra lateral deben ocupar ambas columnas del grid. */
+.dash-body > .content:first-child {
+  grid-column: 1 / -1;
+}
 .sidebar {
   padding: 28px 22px;
   background: #fff;
@@ -511,6 +515,7 @@ button {
   width: 100%;
 }
 .profile-sheet {
+  width: 100%;
   max-width: 900px;
   margin: auto;
 }

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title">
+  <title id="title">Imagen de perfil</title>
+  <rect width="400" height="400" fill="#e8dcc0"/>
+  <circle cx="200" cy="145" r="72" fill="#cda85e"/>
+  <path d="M65 365c8-94 61-142 135-142s127 48 135 142" fill="#123d2d"/>
+  <circle cx="200" cy="200" r="184" fill="none" stroke="#123d2d" stroke-width="12" opacity=".16"/>
+</svg>
